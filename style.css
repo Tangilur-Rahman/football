@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;700;800;900&display=swap');
+
+html{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+    /* Header Section */
+
+header{
+    position: relative;
+}
+.nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+}
+.logo a{
+    color: rgb(35, 35, 148);
+    font-size: 1.5em;
+}
+.link a{
+    color: black;
+    padding-left: 50px;
+}
+.link a:hover{
+    color: orangered;
+}
+.login a{
+    background-color: #113CFC;
+    color: white;
+    padding : 8px;
+    font-size: .8em;
+    border-radius: 5px 10px 0px 5px;
+}
+
+        /* Border Section */
+
+.border{
+    width: 35px;
+    height: 300px;
+    background-color: #113CFC;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 170px);
+    border-radius: 0 100px 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+
+}
+.border:hover{
+    background-color: black;
+
+}
+.border:hover i{
+    color: orangered;
+    font-size: 1em;
+    transition: .5s;
+}
+.border i{
+    margin-top: 40px;
+}
+
+
+   /* Main section */
+
+
+main{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+  justify-content: space-between;
+    margin: auto;
+    position: relative;
+  
+}
+
+main .text h1{
+    font-size: 10em;
+    color: #1597E5;
+    
+    
+}
+main .text:hover h1{
+    color: black;
+    transition: .8s;
+}
+main .text:hover h2{
+    color: #1597E5;
+    transition: .8s;
+}
+main .text h2{
+    font-size: 2em;
+   margin-top: -100px;
+  
+
+
+
+}
+main .text a{
+    text-decoration: none;
+    background-color: #FF5733;
+    padding: 15px;
+    border-radius: 100px;
+    color: black;
+    border: 1px solid black;
+  
+
+
+    
+}
+
+main .text a:hover{
+    opacity: .9;
+    color: white;
+   
+}
+main .image{
+    position: absolute;
+    right: -10%;
+}
+.image img {
+    width: 750px;
+    filter: drop-shadow(-130px -70px 5px rgba(0,0,0,.5));
+    transition: .5s;
+}
+.image img:hover{
+    filter: drop-shadow(0px 0px 5px  rgba(0,0,0,.5));
+}
+
+
+ /* Footer Section  */
+footer{
+    position: absolute;
+    width: 99%;
+    height: 200px;
+    bottom: 0;
+    z-index: -1;
+    
+}
+footer svg{
+    position: absolute;
+    bottom: 0;
+
+   
+}
+footer .text{
+  position:absolute;
+  left: 40%;
+  bottom: -4%;  
+}
+
+footer h3:hover i{
+    color: orangered;
+}
+footer p{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: red;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
